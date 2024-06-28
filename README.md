@@ -1,6 +1,6 @@
 # YouTube Audio Transcriber with Whisper AI
 
-This Streamlit application allows users to download audio from YouTube videos and transcribe it using Whisper AI. The transcription results in `.srt`, `.txt`, and `.tsv` files, which can be viewed and downloaded directly from the app.
+This Streamlit application allows users to transcribe YouTube videos using Whisper AI. The transcription results in `.srt`, `.txt`, and `.tsv` files, which can be viewed and downloaded directly from the app.
 
 ![YouTube-Subtitle](https://github.com/rishabh11336/Youtube-Subtitle/assets/67859818/119137ca-86c8-4f78-a08e-2b9e416705f3)
 
