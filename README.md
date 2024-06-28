@@ -4,8 +4,7 @@ This Streamlit application allows users to download audio from YouTube videos an
 
 ## Features
 
-- Download audio from YouTube videos.
-- Transcribe the audio using Whisper AI.
+- Transcribe YouTube videos with url.
 - Support for various Whisper AI models.
 - View and download transcription files in `.srt`, `.txt`, and `.tsv` formats.
 
@@ -41,6 +40,17 @@ This Streamlit application allows users to download audio from YouTube videos an
 1. **Enter the YouTube URL:** Input the URL of the YouTube video you want to download the audio from.
 2. **Enter the desired filename:** Specify the filename (without extension) for the downloaded audio file.
 3. **Select the Whisper AI model:** Choose the desired Whisper AI model for transcription from the dropdown menu.
+There are five model sizes, four with English-only versions, offering speed and accuracy tradeoffs. Below are the names of the available models and their approximate memory requirements and inference speed relative to the large model; actual speed may vary depending on many factors including the available hardware.
+
+|  Size  | Parameters | English-only model | Multilingual model | Required VRAM | Relative speed |
+|:------:|:----------:|:------------------:|:------------------:|:-------------:|:--------------:|
+|  tiny  |    39 M    |     `tiny.en`      |       `tiny`       |     ~1 GB     |      ~32x      |
+|  base  |    74 M    |     `base.en`      |       `base`       |     ~1 GB     |      ~16x      |
+| small  |   244 M    |     `small.en`     |      `small`       |     ~2 GB     |      ~6x       |
+| medium |   769 M    |    `medium.en`     |      `medium`      |     ~5 GB     |      ~2x       |
+| large  |   1550 M   |        N/A         |      `large`       |    ~10 GB     |       1x       |
+
+The `.en` models for English-only applications tend to perform better, especially for the `tiny.en` and `base.en` models. We observed that the difference becomes less significant for the `small.en` and `medium.en` models.  
 4. **Download and Transcribe:** Click the "Download and Transcribe" button to start the process.
 5. **View and Download Transcription Files:** Once the transcription is complete, you can view and download the `.srt`, `.txt`, and `.tsv` files.
 
