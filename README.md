@@ -1,6 +1,6 @@
 # YouTube Audio Transcriber with Whisper AI
 
-This Streamlit application allows users to transcribe YouTube videos using Whisper AI. The transcription results in `.srt`, `.txt`, and `.tsv` files, which can be viewed and downloaded directly from the app.
+This Streamlit application allows users to transcribe YouTube videos using [Whisper AI](https://github.com/openai/whisper). The transcription results in `.srt`, `.txt`, and `.tsv` files, which can be viewed and downloaded directly from the app.
 
 ![YouTube-Subtitle](https://github.com/rishabh11336/Youtube-Subtitle/assets/67859818/119137ca-86c8-4f78-a08e-2b9e416705f3)
 
@@ -8,7 +8,7 @@ This Streamlit application allows users to transcribe YouTube videos using Whisp
 ## Features
 
 - Transcribe YouTube videos with url.
-- Support for various Whisper AI models.
+- Support for various [Whisper AI](https://github.com/openai/whisper) models.
 - View and download transcription files in `.srt`, `.txt`, and `.tsv` formats.
 
 ## Installation
@@ -42,7 +42,7 @@ This Streamlit application allows users to transcribe YouTube videos using Whisp
 
 1. **Enter the YouTube URL:** Input the URL of the YouTube video you want to download the audio from.
 2. **Enter the desired filename:** Specify the filename (without extension) for the downloaded audio file.
-3. **Select the Whisper AI model:** Choose the desired Whisper AI model for transcription from the dropdown menu.
+3. **Select the Whisper AI model:** Choose the desired [Whisper AI](https://github.com/openai/whisper) model for transcription from the dropdown menu.
 4. **Download and Transcribe:** Click the "Download and Transcribe" button to start the process.  
 5. **View and Download Transcription Files:** Once the transcription is complete, you can view and download the `.srt`, `.txt`, and `.tsv` files.
 
@@ -75,7 +75,7 @@ Youtube-Subtitle/
 ## Example
 
 1. Enter the YouTube URL.
-2. Select the Whisper AI model.
+2. Select the [Whisper AI](https://github.com/openai/whisper) model.
 3. Click "Download and Transcribe".
 4. View and download the transcription files.
 
