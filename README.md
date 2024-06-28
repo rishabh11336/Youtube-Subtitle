@@ -13,7 +13,7 @@ This Streamlit application allows users to download audio from YouTube videos an
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/rishabh11336/Youtube-Subtitle.git
     cd your-repo-name
     ```
 
@@ -24,9 +24,9 @@ This Streamlit application allows users to download audio from YouTube videos an
 
 ## Usage
 
-1. Ensure Whisper AI is installed and accessible from the command line:
+1. Ensure requirements.txt is installed and accessible from the command line:
     ```bash
-    pip install openai-whisper
+    pip install -r requirements.txt
     ```
 
 2. Run the Streamlit app:
@@ -46,7 +46,7 @@ This Streamlit application allows users to download audio from YouTube videos an
 
 ## Project Structure
 
-your-repo-name/
+Youtube-Subtitle/
 ├── app.py
 ├── README.md
 └── requirements.txt
@@ -56,21 +56,13 @@ your-repo-name/
 - `README.md`: This README file.
 - `requirements.txt`: List of required Python packages.
 
-## Requirements
-
-- Python 3.6 or higher
-- Streamlit
-- PyTube
-- pydub
-- openai-whisper
 
 ## Example
 
 1. Enter the YouTube URL.
-2. Enter the desired filename.
-3. Select the Whisper AI model.
-4. Click "Download and Transcribe".
-5. View and download the transcription files.
+2. Select the Whisper AI model.
+3. Click "Download and Transcribe".
+4. View and download the transcription files.
 
 ## Contributing
 
