@@ -31,6 +31,11 @@ This Streamlit application allows users to transcribe YouTube videos using [Whis
     pip install -r requirements.txt
     ```
 
+You may need [rust](https://www.rust-lang.org/) installed as well, in case tiktoken does not provide a pre-built wheel for your platform. If you see installation errors during the `pip install` command above, please follow the [Getting started](https://www.rust-lang.org/learn/get-started) page to install Rust development environment. Additionally, you may need to configure the `PATH` environment variable, e.g. `export PATH="$HOME/.cargo/bin:$PATH"`. If the installation fails with `No module named 'setuptools_rust'`, you need to install `setuptools_rust`, e.g. by running:
+```bash
+pip install setuptools-rust
+```
+
 2. Run the Streamlit app:
     ```bash
     streamlit run app.py
