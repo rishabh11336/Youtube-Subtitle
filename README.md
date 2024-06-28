@@ -46,10 +46,10 @@ This Streamlit application allows users to download audio from YouTube videos an
 
 ## Project Structure
 
-Youtube-Subtitle/
-├── app.py
-├── README.md
-└── requirements.txt
+Youtube-Subtitle/  
+├── app.py  
+├── README.md  
+└── requirements.txt  
 
 
 - `app.py`: Main application file containing the Streamlit app code.
