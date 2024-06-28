@@ -40,6 +40,9 @@ This Streamlit application allows users to download audio from YouTube videos an
 1. **Enter the YouTube URL:** Input the URL of the YouTube video you want to download the audio from.
 2. **Enter the desired filename:** Specify the filename (without extension) for the downloaded audio file.
 3. **Select the Whisper AI model:** Choose the desired Whisper AI model for transcription from the dropdown menu.
+4. **Download and Transcribe:** Click the "Download and Transcribe" button to start the process.  
+5. **View and Download Transcription Files:** Once the transcription is complete, you can view and download the `.srt`, `.txt`, and `.tsv` files.
+
 There are five model sizes, four with English-only versions, offering speed and accuracy tradeoffs. Below are the names of the available models and their approximate memory requirements and inference speed relative to the large model; actual speed may vary depending on many factors including the available hardware.
 
 |  Size  | Parameters | English-only model | Multilingual model | Required VRAM | Relative speed |
@@ -51,8 +54,7 @@ There are five model sizes, four with English-only versions, offering speed and 
 | large  |   1550 M   |        N/A         |      `large`       |    ~10 GB     |       1x       |
 
 The `.en` models for English-only applications tend to perform better, especially for the `tiny.en` and `base.en` models. We observed that the difference becomes less significant for the `small.en` and `medium.en` models.  
-4. **Download and Transcribe:** Click the "Download and Transcribe" button to start the process.
-5. **View and Download Transcription Files:** Once the transcription is complete, you can view and download the `.srt`, `.txt`, and `.tsv` files.
+
 
 ## Project Structure
 
